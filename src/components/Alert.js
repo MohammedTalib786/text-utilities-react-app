@@ -1,13 +1,7 @@
 import React from 'react'
 
-const Alert = ({ alert }) => {
-    return (
-        <div className="" style={{ height: '3.2rem' }}>
-            {alert && <div className={`alert alert-${alert.type}`} role="alert">
-                {alert.msg}
-            </div>}
-        </div>
-    )
+const Alert = ({ type, message }) => {
+    return <div style={{ borderTopRightRadius: '0', borderTopLeftRadius: '0', borderBottomRightRadius: '10px', borderBottomLeftRadius: '10px' }} className={`${type} `} role="alert"> {message} </div>
 }
 
 export default Alert;

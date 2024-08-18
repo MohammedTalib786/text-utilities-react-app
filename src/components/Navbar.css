@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Open+Sans:wght@400;500;600;700;800&family=Orbitron:wght@400;500&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,700&family=Roboto:wght@300;500;700&display=swap');
 
-
-/* green #10B981
-violet #6366F1
-orange #F59E0B
-red #EF4444
-cyan #3B82F6 */
-
+/* green #10B981 violet #6366F1 orange #F59E0B red #EF4444 cyan #3B82F6 */
 
 nav {
     width: 100%;
@@ -17,14 +11,12 @@ nav {
     align-items: center;
     padding: 0rem 6rem;
     column-gap: 22rem;
-    /* margin-bottom: 2rem; */
 }
 
 h2 {
     font-family: sans-serif;
     font-size: 1.5rem;
     color: white;
-
 }
 
 .palets {
@@ -35,15 +27,11 @@ h2 {
     border-radius: 30px;
 }
 
-
 .colors {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: red;
 }
-
-
 
 .cyan {
     background-color: #3B82F6;
@@ -65,10 +53,7 @@ h2 {
     background-color: #10B981;
 }
 
-
-
-
-.darkMode {
+.darkModeBtn {
     width: 2.8rem;
     height: 2.8rem;
     border-radius: 50%;
@@ -81,31 +66,21 @@ h2 {
 
 
 
+/* ==========>>>>>>>>>>> Media Queries   */
 
-
-
-
-
-
-
-
-/* 992 1232 */
-@media only screen and (min-width: 992px) and (max-width: 1232px) {
-    body{
-        background-color: red;
-    }
+@media (min-width: 992px) and (max-width: 1232px) {
     nav {
         column-gap: 14rem;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     nav {
         column-gap: 7rem;
     }
 }
 
-@media only screen and (min-width: 575px) and (max-width: 767px) {
+@media (min-width: 575px) and (max-width: 767px) {
     nav {
         column-gap: 3.8rem;
     }
@@ -131,7 +106,7 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 574px) {
+@media (max-width: 574px) {
     nav {
         flex-direction: column;
         height: 14rem;

@@ -17,7 +17,7 @@ const Navbar = ({ handlerDark, darkMode, darkText }) => {
 
     return (
         <nav style={{ backgroundColor: navPalets }} >
-            <h2>Text Utilities</h2>
+            <h2>Text Utilities Web App</h2>
             <div className="palets">
                 <div onClick={changeNavCyan} className="cyan colors"></div>
                 <div onClick={changeNavRed} className="red colors"></div>

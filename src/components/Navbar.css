@@ -83,6 +83,7 @@ h2 {
 @media (min-width: 575px) and (max-width: 767px) {
     nav {
         column-gap: 3.8rem;
+        padding: 0rem 3rem;
     }
 
     h2 {
@@ -111,5 +112,6 @@ h2 {
         flex-direction: column;
         height: 14rem;
         row-gap: 1.5rem;
+        padding: 0rem 3rem;
     }
 }
